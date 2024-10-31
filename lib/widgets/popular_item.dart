@@ -35,19 +35,19 @@ class PopularItem extends StatelessWidget {
     );
   }
 
-//   _buildItemImage() {
-//     return Container(
-//       height: 120,
-//       width: 220,
-//       decoration: BoxDecoration(
-//         borderRadius: BorderRadius.circular(15),
-//         image: DecorationImage(
-//           fit: BoxFit.cover,
-//           image: NetworkImage(data["image"]),
-//         ),
-//       ),
-//     );
-//   }
+  _buildItemImage() {
+    return Container(
+      height: 120,
+      width: 220,
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(15),
+        image: DecorationImage(
+          fit: BoxFit.cover,
+          image: NetworkImage(data["image"]),
+        ),
+      ),
+    );
+  }
 
 //   _buildItemInfo() {
 //     return SizedBox(
@@ -84,3 +84,5 @@ class PopularItem extends StatelessWidget {
 //     );
 //   }
 // }
+
+*/
