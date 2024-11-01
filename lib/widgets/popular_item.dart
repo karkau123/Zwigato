@@ -49,40 +49,40 @@ class PopularItem extends StatelessWidget {
     );
   }
 
-//   _buildItemInfo() {
-//     return SizedBox(
-//       width: 220,
-//       child: Column(
-//         crossAxisAlignment: CrossAxisAlignment.start,
-//         children: [
-//           Row(
-//             children: [
-//               Expanded(
-//                 child: Text(
-//                   data["name"],
-//                   style: TextStyle(
-//                     fontSize: 14,
-//                     fontWeight: FontWeight.w600,
-//                   ),
-//                 ),
-//               ),
-//               SizedBox(
-//                 width: 5,
-//               ),
-//               Text(
-//                 data["price"],
-//                 style: TextStyle(
-//                   fontSize: 14,
-//                   color: primary,
-//                   fontWeight: FontWeight.w600,
-//                 ),
-//               ),
-//             ],
-//           ),
-//         ],
-//       ),
-//     );
-//   }
-// }
+  _buildItemInfo() {
+    return SizedBox(
+      width: 220,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Row(
+            children: [
+              Expanded(
+                child: Text(
+                  data["name"],
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+              ),
+              SizedBox(
+                width: 5,
+              ),
+              Text(
+                data["price"],
+                style: TextStyle(
+                  fontSize: 14,
+                  color: primary,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
 
-*/
+ 
